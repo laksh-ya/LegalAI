@@ -131,7 +131,7 @@ def translate_text(text, target_language):
     return robust_generate(prompt)
 
 # --- Page Config ---
-st.set_page_config(page_title="ClearClause - Legal AI", page_icon="⚖️", layout="wide")
+st.set_page_config(page_title="Legal AI", page_icon="⚖️", layout="wide")
 st.markdown("""
     <style> 
         <style>
